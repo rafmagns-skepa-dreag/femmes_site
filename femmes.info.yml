@@ -1,12 +1,13 @@
-name: Omega Starterkit
+name: Femmes
 type: theme
-description: 'A flexible theme with tons of configurable regions and a responsive, mobile-first layout.'
+description: 'Flexible, mobile-first layout subthemed from Omega 5 for FEMMES.'
 package: Core
 # version: VERSION
 base theme: omega
 # core: 8.x
+force_export: false
 libraries:
-  - omega_starterkit/omega_starterkit
+  - femmes/femmes
 regions:
   header: Header
   page_top: 'Page Top'
@@ -34,8 +35,8 @@ features:
   favicon: true
   main_menu: true
   secondary_menu: true
-# Information added by Drupal.org packaging script on 2015-11-18
-version: '8.x-5.0-alpha3'
+# Information added by Drupal.org packaging script on 2016-01-11
+version: '8.x-5.0-alpha4'
 core: '8.x'
 project: 'omega'
-datestamp: 1447885743
+datestamp: 1452528028

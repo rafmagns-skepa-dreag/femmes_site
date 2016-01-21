@@ -3,12 +3,12 @@ omega_starterkit:
   js:
     # Custom Javascript file for your own JS modifications.
     # Examples of behaviors in JS file.
-    js/omega_starterkit.js: {}
+    js/femmes.js: {}
     
   css:
     theme:
       # Custom CSS file to be loaded in all media circumstances
-      style/css/omega_starterkit.css: {}
+      style/css/femmes.css: {}
   dependencies:
 #      - core/modernizr
 #     - core/jquery
