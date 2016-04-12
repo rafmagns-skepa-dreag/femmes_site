@@ -1,0 +1,21 @@
+femmes_export:
+  omega:
+    allow_clone_for_subtheme: true
+    allow_enable_disable: true
+    title: 'Default library for the femmes_export theme'
+    description: 'Default Omega subtheme library description. Please provide a more meaningful description (and title) for this library by editing the femmes_export.libraries.yml file.'
+    scss: 
+      style/css/femmes_export.css: 'style/scss/femmes_export.scss'
+  version: VERSION
+  js:
+    js/femmes_export.js: {}
+  css:
+    theme:
+      style/css/femmes_export.css: {}
+    layout: 
+      #style/css/layout/some-layout-file.css: {}
+    component:
+      #style/css/components/some-component.css: {}
+  dependencies:
+    - core/jquery
+    

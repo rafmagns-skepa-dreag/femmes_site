@@ -1,0 +1,83 @@
+<?php
+
+/**
+ * @file
+ * Contains theme level customizations for the femmes_export theme
+ */
+
+/**
+ * Implements hook_js_alter().
+ */
+function femmes_export_js_alter(&$javascript, \Drupal\Core\Asset\AttachedAssetsInterface $assets) {
+
+} // END femmes_export_js_alter
+
+/**
+ * Implements hook_css_alter().
+ */
+function femmes_export_css_alter(&$css, \Drupal\Core\Asset\AttachedAssetsInterface $assets) {
+  
+} // END femmes_export_css_alter 
+
+/**
+ * Implements hook_page_attachments_alter().
+ */
+function femmes_export_page_attachments_alter (&$attachments) {
+  
+} // END femmes_export_page_attachments_alter
+
+/**
+ * Implements hook_preprocess().
+ */
+function femmes_export_preprocess(&$variables, $hook) {
+  
+} // END femmes_export_preprocess
+
+/**
+ * Implements hook_preprocess_HOOK() for html templates.
+ */
+function femmes_export_preprocess_html(&$variables) {
+  
+} // END femmes_export_preprocess_html
+
+/**
+ * Implements hook_preprocess_HOOK() for page templates.
+ */
+function femmes_export_preprocess_page(&$variables) {
+  
+} // END femmes_export_preprocess_page
+
+/**
+ * Implements hook_preprocess_HOOK() for region templates.
+ */
+function femmes_export_preprocess_region(&$variables) {
+  
+} // END femmes_export_preprocess_region
+
+/**
+ * Implements hook_preprocess_HOOK() for node templates.
+ */
+function femmes_export_preprocess_node(&$variables) {
+  
+} // END femmes_export_preprocess_node
+
+/**
+ * Implements hook_preprocess_HOOK() for block templates.
+ */
+function femmes_export_preprocess_block(&$variables) {
+  
+} // END femmes_export_preprocess_block
+
+/**
+ * Implements hook_preprocess_HOOK() for field templates.
+ */
+function femmes_export_preprocess_field(&$vars) {
+  
+} // END femmes_export_preprocess_field
+
+/**
+ * Implements hook_html_head_alter()
+ */
+function femmes_export_html_head_alter(&$head_elements) {
+  
+} // END femmes_export_html_head_alter
